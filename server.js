@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use("/api/v1/auth", authRoutes);
 
-const port = "https://pro-ihk8.onrender.com" || 8080;
+const port = process.env.PORT || 8080;
 
 app.use(express.static(path.join(_dirname, "/client/dist")));
 app.get("*"),

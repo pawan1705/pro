@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon server.js",
     "client": "npm  start --prefix ./client",
-    "build": "npm install  && npm install --prefix ./client && npm run build --prefix ./client",
     "ana": "concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
