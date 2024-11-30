@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor:  pointer !important;
+ 
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  
+}
+#root{
+  min-height: 100vh;
+  /* display: flex; */
+  animation: fadeIn 1.5s;
+}
+
+a {
+  color: white ;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: #cbfd27 ;
+}
+
+a.active {
+  color:  white !important;
+}
+
+box{
+  margin-top: 120px;
+}
+
+.head{
+  background: -webkit-linear-gradient(16deg, #6ddd18,#ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.head1{
+  background: -webkit-linear-gradient(16deg, #caeb12,#f6f6f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
